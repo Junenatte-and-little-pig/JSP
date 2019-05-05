@@ -42,7 +42,6 @@ public class MessageBean {
     public String toString() {
         return  "username='" + username + '\'' +
                 ", datetime='" + datetime + '\'' +
-                ", message='" + message + '\'' +
-                '}';
+                ", message='" + message + '\'';
     }
 }

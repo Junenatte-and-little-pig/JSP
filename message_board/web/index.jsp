@@ -17,13 +17,12 @@
     try {
         ResultSet rs = MessageDB.getStatement().executeQuery("select * from message_board");
         while (rs.next()) {
-            MessageBean mb=new MessageBean();
-            mb.setId(rs.getInt(1));
-            mb.setUsername(rs.getString(2));
-            mb.setDatetime(rs.getString(3));
-            mb.setMessage(rs.getString(4));
-            System.out.println(mb.toString());
-            content.add(mb);
+            m = new MessageBean();
+            m.setId(rs.getInt(1));
+            m.setUsername(rs.getString(2));
+            m.setDatetime(rs.getString(3));
+            m.setMessage(rs.getString(4));
+            content.add(m);
         }
     } catch (SQLException e) {
         e.printStackTrace();
@@ -32,21 +31,25 @@
 
 <table align="center">
     <tr bgcolor="aqua">
-        <td colspan="4" align="center">留言板</td>
+        <th colspan="4" align="center">留言板</th>
     </tr>
     <%
         for (int i = 0; i < content.size(); i++) {
     %>
     <tr>
-        <td><%=content.get(i).getId() %></td>
-        <td><%=content.get(i).getUsername() %></td>
-        <td><%=content.get(i).getDatetime() %></td>
-        <td><%=content.get(i).getMessage() %></td>
+        <td><%=content.get(i).getId() %>
+        </td>
+        <td><%=content.get(i).getUsername() %>
+        </td>
+        <td><%=content.get(i).getDatetime() %>
+        </td>
+        <td><%=content.get(i).getMessage() %>
+        </td>
     </tr>
     <%}%>
 </table>
-
-<input onclick="window.location.href='message.jsp'" type="button" value="我要留言">
-
+<div align="center">
+    <input onclick="window.location.href='message.jsp'" type="button" value="我要留言">
+</div>
 </body>
 </html>
