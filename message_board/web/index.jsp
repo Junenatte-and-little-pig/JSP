@@ -18,9 +18,9 @@
         ResultSet rs = MessageDB.getStatement().executeQuery("select * from message_board");
         while (rs.next()) {
             m = new MessageBean();
-            m.setId(rs.getInt(1));
-            m.setUsername(rs.getString(2));
-            m.setDatetime(rs.getString(3));
+            m.setUsername(rs.getString(1));
+            m.setDatetime(rs.getString(2));
+            m.setTitle(rs.getString(3));
             m.setMessage(rs.getString(4));
             content.add(m);
         }
@@ -29,19 +29,28 @@
     }
 %>
 
-<table align="center">
+<table align="center" border="1">
     <tr bgcolor="aqua">
-        <th colspan="4" align="center">留言板</th>
+        <th colspan="5" align="center">留言板</th>
+    </tr>
+    <tr align="center">
+        <th>序号</th>
+        <th>姓名</th>
+        <th>留言时间</th>
+        <th>主题</th>
+        <th>内容</th>
     </tr>
     <%
         for (int i = 0; i < content.size(); i++) {
     %>
-    <tr>
-        <td><%=content.get(i).getId() %>
+    <tr align="center">
+        <td><%=i+1 %>
         </td>
         <td><%=content.get(i).getUsername() %>
         </td>
         <td><%=content.get(i).getDatetime() %>
+        </td>
+        <td><%=content.get(i).getTitle()%>
         </td>
         <td><%=content.get(i).getMessage() %>
         </td>

@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c94ec489-1bda-4be2-90bc-270da799b331" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/handle.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/message_board_war_exploded/WEB-INF/classes/bean/MessageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/message_board_war_exploded/WEB-INF/classes/bean/MessageBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/message_board_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/message_board_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/message_board_war_exploded/message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/message_board_war_exploded/message.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bean/MessageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean/MessageBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/bean/MessageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/bean/MessageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/handle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/handle.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/message.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/message.jsp" afterDir="false" />
     </list>
@@ -46,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="249">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/util/MessageDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,35 +67,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bean/MessageBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            <state relative-caret-position="20">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/message.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="380">
+              <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -106,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/handle.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="-6">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -132,9 +129,9 @@
         <option value="$PROJECT_DIR$/src/util/MessageUtil.java" />
         <option value="$PROJECT_DIR$/src/util/MessageDB.java" />
         <option value="$PROJECT_DIR$/src/bean/MessageBean.java" />
+        <option value="$PROJECT_DIR$/web/handle.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/message.jsp" />
-        <option value="$PROJECT_DIR$/web/handle.jsp" />
       </list>
     </option>
   </component>
@@ -171,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,7 +213,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,17 +334,18 @@
       <workItem from="1556935868754" duration="6064000" />
       <workItem from="1557021881709" duration="1219000" />
       <workItem from="1557024565984" duration="14343000" />
+      <workItem from="1557155532317" duration="1059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21626000" />
+    <option name="totallyTimeSpent" value="22685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -395,56 +393,56 @@
     <entry file="file://$PROJECT_DIR$/src/util/MessageDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/MessageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/handle.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-6">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/MessageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="249">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/message.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
         </state>
       </provider>
     </entry>

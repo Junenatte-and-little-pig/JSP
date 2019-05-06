@@ -5,17 +5,27 @@
 </head>
 <body>
 <form action="handle.jsp">
-    <label>
-    留言人：
-    <input type="text" name="username" id="username"/>
-    </label>
-    <br/>
-    <label>
-    留言板：
-    <textarea name="message" id="message" cols="20" rows="15"></textarea>
-    </label>
-    <br/>
-    <input type="submit" value="留言">
+    <table>
+        <tr>
+            <td>留言人：</td>
+            <td><input type="text" name="username" id="username"/>
+            </td>
+        </tr>
+        <tr>
+            <td>主   题：</td>
+            <td><input type="text" name="title" id="title"/>
+            </td>
+        </tr>
+        <tr>
+            <td>内   容：</td>
+            <td><textarea name="content" id="content" cols="20" rows="15"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="留言">
+            </td>
+        </tr>
+    </table>
 </form>
 </body>
 </html>

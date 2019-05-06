@@ -17,13 +17,16 @@
     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     String datetime = df.format(new Date());
     String username = request.getParameter("username");
-    String message = request.getParameter("message");
-    String SQLInsert = "INSERT INTO `jsp_message`.`message_board` (`username`, `datetime`, `message`) VALUES ('"+
+    String title = request.getParameter("title");
+    String content = request.getParameter("content");
+    String SQLInsert = "INSERT INTO `jsp_message`.`message_board` (`username`, `time`, `title`,  `content`) VALUES ('" +
             username +
             "', '" +
             datetime +
             "', '" +
-            message +
+            title +
+            "', '" +
+            content +
             "');";
     MessageDB.insertDB(SQLInsert);
 %>
