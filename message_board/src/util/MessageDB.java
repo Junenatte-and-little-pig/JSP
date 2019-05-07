@@ -21,11 +21,7 @@ public class MessageDB {
         return stmt;
     }
 
-    public static void insertDB(String SQLInsert) {
-        try {
+    public static void insertDB(String SQLInsert) throws SQLException {
             stmt.execute(SQLInsert);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

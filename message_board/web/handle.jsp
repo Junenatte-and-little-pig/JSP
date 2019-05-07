@@ -1,12 +1,7 @@
 <%@ page import="java.text.SimpleDateFormat" %>
 <%@ page import="java.util.Date" %>
-<%@ page import="util.MessageDB" %><%--
-  Created by IntelliJ IDEA.
-  User: ThinkPad
-  Date: 2019/5/5
-  Time: 21:48
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="util.MessageDB" %>
+<%@ page import="java.sql.SQLException" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -19,7 +14,9 @@
     String username = request.getParameter("username");
     String title = request.getParameter("title");
     String content = request.getParameter("content");
-    String SQLInsert = "INSERT INTO `jsp_message`.`message_board` (`username`, `time`, `title`,  `content`) VALUES ('" +
+    String SQLInsert="";
+    if(!username.equals("") && !title.equals(""))
+    SQLInsert = "INSERT INTO `jsp_message`.`message_board` (`username`, `time`, `title`,  `content`) VALUES ('" +
             username +
             "', '" +
             datetime +
@@ -28,7 +25,12 @@
             "', '" +
             content +
             "');";
-    MessageDB.insertDB(SQLInsert);
+    try {
+        if(!SQLInsert.equals(""))
+        MessageDB.insertDB(SQLInsert);
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
 %>
 <jsp:forward page="index.jsp"/>
 </body>

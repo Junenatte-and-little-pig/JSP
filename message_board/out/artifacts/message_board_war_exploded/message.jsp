@@ -12,12 +12,12 @@
             </td>
         </tr>
         <tr>
-            <td>主 题：</td>
+            <td>主   题：</td>
             <td><input type="text" name="title" id="title"/>
             </td>
         </tr>
         <tr>
-            <td>内 容：</td>
+            <td>内   容：</td>
             <td><textarea name="content" id="content" cols="20" rows="15"></textarea>
             </td>
         </tr>

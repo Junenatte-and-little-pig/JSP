@@ -29,7 +29,7 @@
     }
 %>
 
-<table align="center" border="1">
+<table align="center" border="1" width="100%">
     <tr bgcolor="aqua">
         <th colspan="5" align="center">留言板</th>
     </tr>
@@ -58,7 +58,7 @@
     <%}%>
 </table>
 <div align="center">
-    <input onclick="window.location.href='message.jsp'" type="button" value="我要留言">
+    <input onclick="window.location.href='message.jsp'" type="button" value="我要留言" width="20px" height="5px">
 </div>
 </body>
 </html>
