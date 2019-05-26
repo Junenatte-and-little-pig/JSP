@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/yxq/servlet/BuyServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/yxq/servlet/IndexServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/yxq/toolbean/MyTools.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/yxq/toolbean/ShopCar.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/yxq/valuebean/GoodsSingle.java" charset="UTF-8" />
+  </component>
+</project>
