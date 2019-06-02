@@ -12,7 +12,7 @@
     ArrayList buylist = (ArrayList) session.getAttribute("buylist");
     float total = 0;                            //用来存储应付金额
 %>
-<table border="1" width="500" rules="none" cellspacing="0" cellpadding="0" border-collapse="collapse">
+<table border="1" width="500" rules="none" cellspacing="0" cellpadding="0">
     <tr height="50">
         <td colspan="6" align="center">购买的商品如下</td>
     </tr>
@@ -66,13 +66,13 @@
                 DecimalFormat decimalFormat = new DecimalFormat(".00");
                 t = decimalFormat.format(total);
             }%>
-            <%=t%>
+            <%=t%>元
         </td>
     </tr>
     <tr height="50" align="center">
-        <td colspan="2" border="solid 1px black"><a href="doCar?action=clear">清空购物车</a></td>
-        <td colspan="2" border="solid 1px black"><a href="show.jsp">继续购物</a></td>
-        <td colspan="2" border="solid 1px black"><a href="doCar?action=pay">结算</a></td>
+        <td colspan="2"><a href="doCar?action=clear">清空购物车</a></td>
+        <td colspan="2"><a href="show.jsp">继续购物</a></td>
+        <td colspan="2"><a href="doCar?action=pay">结算</a></td>
     </tr>
 </table>
 </body>

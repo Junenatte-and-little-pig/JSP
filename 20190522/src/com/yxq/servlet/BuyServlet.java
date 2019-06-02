@@ -80,17 +80,22 @@ public class BuyServlet extends HttpServlet {
         HttpSession session = request.getSession();
         ArrayList buylist = (ArrayList) session.getAttribute("buylist");            //从session范围内获取存储了用户已购买商品的集合对象
         //循环buylist
-        for (Object gs : buylist)
-        //根据id更新数据库
-        //UPDATE `shopcar`.`store` SET `storage` = '5' WHERE (`id` = '19050201');
-        {
-            try {
-                ShopCarDB.updateDB("UPDATE `shopcar`.`store` SET `storage` = `storage` - " + ((GoodsSingle) gs).getNum() + " WHERE (`id` = '" + ((GoodsSingle) gs).getId() + "');");
-            } catch (SQLException e) {
-                e.printStackTrace();
+        if(buylist==null)
+            session.setAttribute("message","购物车无任何商品！");
+        else {
+            for (Object gs : buylist)
+            //根据id更新数据库
+            //UPDATE `shopcar`.`store` SET `storage` = '5' WHERE (`id` = '19050201');
+            {
+                try {
+                    ShopCarDB.updateDB("UPDATE `shopcar`.`store` SET `storage` = `storage` - " + ((GoodsSingle) gs).getNum() + " WHERE (`id` = '" + ((GoodsSingle) gs).getId() + "');");
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
+            buylist.clear();                                                        //清空buylist集合对象，实现购物车清空的操作
+            session.setAttribute("message","购物成功！");
         }
-        buylist.clear();                                                        //清空buylist集合对象，实现购物车清空的操作
-        response.sendRedirect("shopcar.jsp");
+        response.sendRedirect("show.jsp");
     }
 }
