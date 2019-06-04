@@ -30,7 +30,7 @@
         <th>操作</th>
     </tr>
     <%
-        DecimalFormat df = new DecimalFormat("#.00");
+        DecimalFormat df = new DecimalFormat("#0.00");
         GradeDao gdi = new GradeDaoImpl();
         try {
             List<Grade> grades = gdi.queryAll();

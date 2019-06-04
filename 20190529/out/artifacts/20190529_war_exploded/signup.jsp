@@ -5,7 +5,7 @@
 </head>
 <body>
 <form action="login?action=signup" method="post" onsubmit="return confirm(this)">
-    学号：<input type="text" name="username"><br/>
+    用户名：<input type="text" name="username"><br/>
     姓名：<input type="text" name="name"><br />
     密码：<input type="password" name="password"><br/>
     确认密码：<input type="password" name="confirm_password"><br/>
@@ -14,7 +14,12 @@
 </form>
 <script>
     function confirm(frm) {
-        return frm.children[4].value === frm.children[6].value;
+        if(frm.children[4].value === frm.children[6].value)
+            return true;
+        else{
+            alert("两次密码不一致");
+            return false;
+        }
     }
 </script>
 </body>
